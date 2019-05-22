@@ -1,0 +1,27 @@
+//Settings
+@import './Settings/variables';
+@import './Settings/fuentes';
+
+//Tools
+@import './Tools/mixins';
+
+//Generic
+@import './Generic/reset';
+
+//Elements
+@import './Elements/elementos';
+
+
+:root {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+//Components
+@import './Components/Hero/foo';
+
+//Objects
+@import './Objects/objects';
+
+//Utilities
+@import './Utilities/god-tier';
